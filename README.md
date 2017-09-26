@@ -1,12 +1,13 @@
-# AMP Docker
+# PAMP Docker for dump at 42 AND Camagru
 
-Dockerized version of the good old AMP stack to get you up and running in no time. With PHP 7.1
+Dockerized version of the good old PAMP stack to get you up and running in no time. With PHP 7.1 and phpmyadmin
 
 ## What's in the box
 
 - PHP7.1
 - Apache Httpd v2.2 (with mod_php)
 - MySQL 5.7
+- phpMyAdmin
 
 ## Getting started
 
@@ -28,6 +29,9 @@ Dockerized version of the good old AMP stack to get you up and running in no tim
         
 5. Checkout your website at `127.0.0.1`
 
+6. Checkout your DB with phpMyAdmin at `localhost:8081`
+
 # Initializing a database
 
 SQL files inside the `mysql` directory will be executed on docker-compose up (with some caveats). This is particularly useful to create an initial database and/or tables.
+If you want to use another db's name (other than Camagru), modify the environment in docker-compose.yaml
