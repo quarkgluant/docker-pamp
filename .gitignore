@@ -1,0 +1,9 @@
+src
+mysql/*
+!mysql/.gitkeep
+php56/bootstrap.sh
+php56/php.ini
+php56/vhost.conf
+php71/bootstrap.sh
+php71/php.ini
+php71/vhost.conf
